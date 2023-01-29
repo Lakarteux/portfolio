@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Obras</title>
+    <meta charset="UTF-8" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../node_modules/lightgallery/css/lightgallery-bundle.css"
+    />
+    <link rel="stylesheet" href="./src/work.css" />
+    <link rel="stylesheet" href="./src/galeria.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div><h1>Mi Portafolio</h1></div>
+      <div class="links">
+        <a href="index.html">Inicio</a>
+        <a href="work.html">Obras</a>
+        <a href="about.html">Sobre Mi</a>
+      </div>
+    </nav>
+    <div id="app"></div>
+    <div class="gallerycont">
+      <div class="wrapper" id="lG2023">
+        <h2 class="fecha">2023</h2>
+        
+        <a  class="imagenes"href="/img/p1.png" data-sub-html="<div class='caption2023'>
+          <h4><a href='https://lakarteux.github.io/proencript/'>Página de Encriptador</a></h4>
+          <p>Ejercicio de creación de una página web con un encriptador. Escrito en HTML, CSS y JS.</p>
+        </div>"> 
+          <img src="/img/pthumb.png">
+        </a>
+        <a  class="imagenes hidden"href="/img/p2.png" data-sub-html=".caption2023"> 
+        </a>
+        <a  class="imagenes hidden"href="/img/p3.png" data-sub-html=".caption2023"> 
+        </a>
+      </div>
+      <div class="wrapper" id="lG2022">
+            <h2 class="fecha">2022</h2>
+            <a  class="imagenes"href="/img/e1.png" data-sub-html="<div class='caption2022'>
+              <h4><a href='https://lakarteux.github.io/eldenpage/'>Página sobre escenario</a></h4>
+              <p>Ejercicio de creación de una página web sobre un mundo en especifico. Escrito en HTML, CSS y JS.</p>
+            </div>"> 
+              <img src="/img/ethumb.jpg">
+            </a>
+            <a  class="imagenes hidden"href="/img/e2.png" data-sub-html=".caption2022"> 
+            </a>
+            <a  class="imagenes hidden"href="/img/e3.png" data-sub-html=".caption2022"> 
+            </a>
+            
+      </div>
+      <div class="wrapper" id="lG2021">
+
+            
+            <h2 class="fecha">2021</h2>
+        
+            <a  class="imagenes"href="/img/v1.png" data-sub-html="<div class='caption2021'>
+                <h4>Proyecto <a href='https://lakarteux.github.io/vetapp/'>Página Veterinaria</a></h4>
+                <p>Proyecto realizado para la página web de una veterinaria. Funcionamiento hasta el Front-End. Escrita en React.</p>
+              </div>"> 
+              <img src="/img/vthumb.png">
+            </a>
+            <a  class="imagenes hidden"href="/img/v2.png" data-sub-html=".caption2021"> 
+            </a>
+            <a  class="imagenes hidden"href="/img/v3.png" data-sub-html=".caption2021"> 
+            </a>
+            <a  class="imagenes hidden"href="/img/v4.png" data-sub-html=".caption2021"> 
+            </a>
+            
+      </div>
+    </div>
+
+      <br>
+      
+      
+      
+      <footer>
+      Esta es una página de Andres Leonardo Escobar Pinzón
+      </footer>
+      
+      </div>
+
+    <script src="../node_modules/lightgallery/lightgallery.umd.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lG2023"), {
+        selector: ".imagenes",
+        licenseKey: "your_license_key",
+        speed: 500
+      });
+      lightGallery(document.getElementById("lG2022"), {
+        selector: ".imagenes",
+        licenseKey: "your_license_key",
+        speed: 500
+      });
+      lightGallery(document.getElementById("lG2021"), {
+        selector: ".imagenes",
+        licenseKey: "your_license_key",
+        speed: 500
+      });
+    </script>
+
+  </body>
+</html>
